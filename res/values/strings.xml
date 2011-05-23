@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Preneseni Broevi</string>
+    <string name="sEmpty">Внеси број или контакт</string>
+    <string name="sFirstTime">Ви благодарам што ја инсталиравте оваа апликација.\n\n
+За сите забелешки, критики и пофалби контактирајте ме на okolumene@gmail.com\n\n
+Изработил: Димитар Талевски - DiVlapps</string>
+    <string name="OK">Провери</string>
+    <string name="Close">Затвори</string>
+    <string name="sPortBroj">Пренесени броеви</string>
+    <string name="sBadNumber">Невалиден тел. број. Точен формат е 0ХХХХХХХ (пр. 075123123)</string>
+    <string name="sNoInet">Потребна е активна интернет конекција за оваа услуга.</string>
+    <string name="sProblem">Упс, проблем со бројот.</string>
+    <string name="sServProblem">Упс, проблем со сервисот.</string>
+    <string name="sNoHTTP">Не е правилна HTTP конекција.</string>
+    <string name="sConnProblem">Грешка при поврзување со серверот.</string>
+    <string name="sEmptyNumber">Внесете број или контакт во полето.</string>
+    <string name="callMe">Повик</string>
+    <string name="SMS">SMS</string>
+    <string name="sNumb4Call">Внесете број пред да можете да се јавите.</string>
+    <string name="sNumb4Sms">Внесете број пред да можете да испратите СМС.</string>
+    <string name="chNum">бројот не е пренесен</string>
+    <string name="newText">Бројот не е пренесен на друга мрежа</string>
+    <string name="sDot">.</string>
+    <string name="sWait">Причекајте...</string>
+    <string name="sAboutButton">За апликацијата</string>
+    <string name="sAboutText">
+Оваа апликација го користи јавниот сервис на
+АЕК за проверка на броевите. За сите забелешки,
+сугестии и пофалби пишете ми на okolumene@gmail.com \n\n
+Изработил: Димитар Талевски - DiVlapps
+</string>
+    <string name="VipNum">. Бројот сè уште е во мрежата на Вип (Vip).</string>
+    <string name="TmoNum">. Бројот сè уште е во мрежата на Ти-мобајл (T-Mobile).</string>
+    <string name="OneNum">. Бројот сè уште е во мрежата на Оне (One).</string>
+</resources>

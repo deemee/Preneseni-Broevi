@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget30"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/modded">
+<Button
+android:id="@+id/Button01"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@android:color/transparent"
+android:text="@string/SMS"
+android:layout_centerHorizontal="true" android:layout_below="@+id/Button02" android:textColor="#FFFFFF" android:paddingTop="20dp" android:drawableBottom="@drawable/btn_state" android:textSize="15sp" android:textStyle="bold" android:drawablePadding="-36dp">
+</Button>
+<Button
+android:id="@+id/Button02"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/Button03" 
+android:text="@string/callMe"
+android:background="@android:color/transparent" android:layout_centerHorizontal="true" android:paddingBottom="15dp" android:textColor="#FFFFFF" android:paddingTop="35dp" android:drawableBottom="@drawable/btn_state" android:textSize="15sp" android:textStyle="bold" android:drawablePadding="-36dp">
+</Button>
+<Button
+android:id="@+id/Button03"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/OK"
+android:background="@android:color/transparent" android:layout_centerHorizontal="true" android:layout_below="@+id/returnedValue" android:paddingTop="70dp" android:drawableBottom="@drawable/btn_state" android:textColor="#09F911" android:drawablePadding="-38dp" android:textSize="20sp" android:textStyle="bold">
+</Button>
+<TextView
+android:id="@+id/returnedValue"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/EditText01"
+android:textColor="#000000"
+android:paddingLeft="5dp">
+</TextView>
+<AutoCompleteTextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+android:hint="@string/sEmpty" 
+android:id="@+id/EditText01" android:textSize="25sp" android:minHeight="65dp">
+</AutoCompleteTextView>
+
+
+</RelativeLayout>
